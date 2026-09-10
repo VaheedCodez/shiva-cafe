@@ -1,0 +1,14 @@
+{
+  "name": "shiva-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shiva Cafe static site",
+  "scripts": {
+    "watch": "node scripts/dev-server.js",
+    "start": "npm run watch"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
